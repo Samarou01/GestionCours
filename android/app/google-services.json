@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "641462607548",
+    "project_id": "gestion-salles-enseignants",
+    "storage_bucket": "gestion-salles-enseignants.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641462607548:android:78a122db14cc6858d2bab9",
+        "android_client_info": {
+          "package_name": "com.example.gestion_emplois"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4_jhQn9wmxOstr6Z6lX_yNh2PY2kYWd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

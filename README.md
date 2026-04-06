@@ -1,16 +1,65 @@
-# firebase_app_demo
+# 📚 Gestion des Cours et Enseignants
 
-A new Flutter project.
+## 🚀 Description
+Application mobile développée avec Flutter et Firebase permettant de gérer les cours et les enseignants de manière simple et sécurisée.
 
-## Getting Started
+Cette application permet aux enseignants de créer, consulter, modifier et supprimer des cours tout en garantissant la sécurité des données grâce à Firebase Authentication et Firestore.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Fonctionnalités
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔐 Authentification des utilisateurs (connexion sécurisée)
+- 👨‍🏫 Gestion des enseignants
+- 📚 Ajout de cours
+- ✏️ Modification des cours
+- ❌ Suppression des cours
+- 🔎 Consultation des cours
+- 🔒 Sécurisation des données avec Firestore
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Technologies utilisées
+
+- Flutter (Frontend mobile)
+- Firebase Authentication
+- Cloud Firestore
+- Dart
+
+---
+
+## 🏗️ Architecture
+
+- Frontend : Flutter
+- Backend : Firebase
+- Base de données : Firestore
+- Authentification : Firebase Auth
+
+---
+
+## 🔐 Sécurité
+
+Les données sont protégées grâce aux règles de sécurité Firestore :
+- Accès uniquement aux utilisateurs authentifiés
+- Chaque enseignant peut gérer uniquement ses propres cours
+
+---
+
+## 📸 Captures d’écran
+
+Ajoute ici les images de ton application :
+
+- Page de connexion  
+- Tableau de bord  
+- Liste des cours  
+- Ajout de cours  
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/Samarou01/GestionCours.git
+cd GestionCours
+flutter pub get
+flutter run
